@@ -16,6 +16,6 @@ learn_nbases: 100e6
 chimera_method: "consensus"
 max_length_variation: 7
 idtaxa_dbs:
-#  RDP: "/Users/silas/Desktop/WarmMicrobiota/TaxonmyDBs/RDP_v16-mod_March2018.RData"
-  Silva: "/Users/silas/Desktop/WarmMicrobiota/TaxonmyDBs/SILVA_SSU_r132_March2018.RData"
-  GTDB: "/Users/silas/Desktop/WarmMicrobiota/TaxonmyDBs/GTDB_r86-mod_September2018.RData"
+  Silva: "/mnt/d/github/amplicon-seq-dada2/silva_138/SILVA_SSU_r138_2019.RData"
+  GTDB: "/mnt/d/github/amplicon-seq-dada2/GTDB/GTDB_r89-mod_June2019.RData"
+  RDP: "http://www2.decipher.codes/Classification/TrainingSets/RDP_v16_March2018.RData"

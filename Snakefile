@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-#configfile: "config.yaml"
+configfile: "config.yaml"
 SampleTable = pd.read_table(config['sampletable'],index_col=0)
 SAMPLES = list(SampleTable.index)
 
